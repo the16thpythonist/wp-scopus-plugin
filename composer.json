@@ -1,0 +1,51 @@
+{
+  "name":  "the16thpythonist/wp-scopus-plugin",
+  "description": "Automated scientific publication import to wordpress",
+  "version":  "0.0.0.0",
+  "type":   "project",
+  "repositories":[
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-pi-logging.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-scopus-collaboration-checker.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/kitopen-api.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/indico-api.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp_commands.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-data-safe.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-scopus.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/the16thpythonist/wp-cpt-lib.git"
+    }
+  ],
+  "require": {
+    "the16thpythonist/wp-cpt-lib": "dev-master",
+    "the16thpythonist/wp-pi-logging": "dev-master",
+    "the16thpythonist/scopus-collaboration-checker": "dev-master",
+    "the16thpythonist/kitopen-api": "dev-master",
+    "the16thpythonist/indico-api": "dev-master",
+    "the16thpythonist/wp-commands": "dev-master",
+    "the16thpythonist/wp-data-safe": "dev-master",
+    "kasparsj/scopus-search-api": "9999999-dev",
+    "the16thpythonist/wp-scopus": "dev-master"
+  }
+}
