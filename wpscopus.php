@@ -15,4 +15,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use the16thpythonist\Wordpress\Scopus\WpScopus;
 
-WpScopus::register('a', 'a');
+// ##################################
+// ## THE SCOPUS API KEY GOES HERE ##
+// ##################################
+WpScopus::register('a', '{REPLACE ME WITH THE API KEY !}');
